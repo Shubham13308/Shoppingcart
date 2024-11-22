@@ -1,0 +1,23 @@
+/* import '../../css/Product/CustomerSale.css' */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.fixed-card {
+  width: 200px; /* Set fixed width */
+  height: 300px; /* Set fixed height */
+  overflow: hidden; /* Ensures content doesn’t overflow the card */
+}
+
+.fixed-card .card-img-top {
+  height: 100px; /* Fixed height for the image */
+  width: 100%; /* Make image span the width of the card */
+  object-fit: cover; /* Ensures image fits without distortion */
+}
+
+.fixed-card .card-body {
+  font-size: 0.9rem; /* Optional: Smaller font for compact look */
+  padding: 10px;
+}

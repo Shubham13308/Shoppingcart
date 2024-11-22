@@ -1,0 +1,27 @@
+/* dashboard.css */
+.dashboard-container {
+    display: flex;
+  }
+  
+  .header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 100px;
+  }
+  
+  .sidebar {
+    margin-top: 60px; /* Adjust based on header height */
+    width: 298px; /* Sidebar width */
+    height: 100vh;
+    position: fixed;
+    top: -60px; /* Align with header height */
+  }
+  
+  .content {
+    margin-top: 60px; /* Adjust based on header height */
+    margin-left: 260px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
